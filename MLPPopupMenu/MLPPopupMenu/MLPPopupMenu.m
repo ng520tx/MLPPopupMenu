@@ -13,8 +13,10 @@
 
 - (BOOL)isPopped
 {
+    NSLog(@"haha");
     return self.superview != nil;
 }
+
 
 - (id)initWithDataSource:(id<UITableViewDataSource>)dataSource
       andDelegate:(id<UITableViewDelegate>)delegate
